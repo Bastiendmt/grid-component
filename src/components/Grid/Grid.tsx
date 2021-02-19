@@ -9,15 +9,15 @@ type AlignItems = "flex-start" | "center" | "flex-end";
 
 const Grid: FunctionComponent<{
     children: ReactNode,
+    spacing?: Spacing;
+    justifyContent?: JustifyContent;
+    alignItems?: AlignItems;
     container?: boolean;
     item?: boolean;
     xs?: Cols;
     sm?: Cols;
     md?: Cols;
     lg?: Cols;
-    spacing?: Spacing;
-    justifyContent?: JustifyContent;
-    alignItems?: AlignItems;
 } & React.HTMLAttributes<HTMLDivElement>
 > = ({
     children,

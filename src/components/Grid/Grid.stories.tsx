@@ -33,8 +33,8 @@ export const Basic: Story = (args) => (
     </div>);
 
 export const WithRuler: Story = (args) => (
-    <div  style={{ position: 'relative'}}>
-        <GridRuler spacing='sm'>      </GridRuler>
+    <div style={{ position: 'relative' }}>
+        <GridRuler spacing='sm'></GridRuler>
 
         <Grid container spacing='sm' alignItems="center" style={{ height: '100%' }} {...args}>
             <Grid item xs={12} sm={6} md={4} lg={3} >
@@ -56,7 +56,7 @@ export const WithRuler: Story = (args) => (
     </div>);
 
 export const Interactive: Story = (args) => (
-    <div  style={{ position: 'relative', height: '100vh'}}>
+    <div style={{ position: 'relative', height: '100vh' }}>
 
         <Grid container spacing='sm' alignItems="center" style={{ height: '100%' }} {...args}>
             <Grid item xs={1}  >
